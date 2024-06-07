@@ -1,5 +1,7 @@
 package net.cheesecake.utilityadditions;
 
+import net.cheesecake.utilityadditions.item.ModItemGroups;
+import net.cheesecake.utilityadditions.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,8 @@ public class UtilityAdditions implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+
+		ModItems.redisterModItems();
 	}
 }
