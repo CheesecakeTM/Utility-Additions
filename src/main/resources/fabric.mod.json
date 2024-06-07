@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "utilityadditions",
+	"version": "${version}",
+	"name": "Utility Additions",
+	"description": "A small mod that adds some useful items.",
+	"authors": [
+		"Cheesecake"
+	],
+	"contact": {
+		"homepage": "https://linktr.ee/just_cheesecake",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/utilityadditions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cheesecake.utilityadditions.UtilityAdditions"
+		],
+		"client": [
+			"net.cheesecake.utilityadditions.UtilityAdditionsClient"
+		],
+		"fabric-datagen": [
+			"net.cheesecake.utilityadditions.UtilityAdditionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"utilityadditions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
