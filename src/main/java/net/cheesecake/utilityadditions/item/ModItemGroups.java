@@ -1,6 +1,7 @@
 package net.cheesecake.utilityadditions.item;
 
 import net.cheesecake.utilityadditions.UtilityAdditions;
+import net.cheesecake.utilityadditions.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.DAWNGEM);
                         entries.add(ModItems.ETERNALITE);
 
+                        entries.add(ModBlocks.DEEPSLATE_DAWN_ORE);
 
 
                     }).build());

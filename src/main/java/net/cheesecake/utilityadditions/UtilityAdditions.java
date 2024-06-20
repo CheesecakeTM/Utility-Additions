@@ -1,5 +1,6 @@
 package net.cheesecake.utilityadditions;
 
+import net.cheesecake.utilityadditions.block.ModBlocks;
 import net.cheesecake.utilityadditions.item.ModItemGroups;
 import net.cheesecake.utilityadditions.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,5 +17,6 @@ public class UtilityAdditions implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
