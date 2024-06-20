@@ -15,7 +15,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.eternalite"))
                     .icon(() -> new ItemStack(ModItems.ETERNALITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.DAWNGEM);
-                        entries.add(ModItems.ETERNALITE); //TODO: make and add the textures!!
+                        entries.add(ModItems.ETERNALITE);
 
 
 
