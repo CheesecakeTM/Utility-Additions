@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -14,7 +15,7 @@ public class ModItems {
     public static final Item ETERNALITE = registerItem("eternalite", new Item(new FabricItemSettings()));
     public static final Item DAWNGEM = registerItem("dawngem", new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngredientTabItemGoup(FabricItemGroupEntries entries) {
+    private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ETERNALITE);
         entries.add(DAWNGEM);
     }
@@ -23,9 +24,9 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(UtilityAdditions.MOD_ID, name), item);
     }
 
-    public static void redisterModItems(){
+    public static void registerModItems(){
         UtilityAdditions.LOGGER.info("Registering Mod Items for " + UtilityAdditions.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGoup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
     }
 }

@@ -3,7 +3,8 @@
 	"package": "net.cheesecake.utilityadditions.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"AnvilScreenHandlerMixin",
+		"ItemStackMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
