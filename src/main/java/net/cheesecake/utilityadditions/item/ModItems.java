@@ -13,10 +13,12 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item ETERNALITE = registerItem("eternalite", new Item(new FabricItemSettings()));
     public static final Item DAWNGEM = registerItem("dawngem", new Item(new FabricItemSettings()));
+    public static final Item ENRICHED_IRON = registerItem("enriched_iron", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ETERNALITE);
         entries.add(DAWNGEM);
+        entries.add(ENRICHED_IRON);
     }
 
     private static Item registerItem(String name, Item item) {
