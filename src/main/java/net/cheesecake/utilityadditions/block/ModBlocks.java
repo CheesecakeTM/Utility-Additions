@@ -1,7 +1,6 @@
 package net.cheesecake.utilityadditions.block;
 
 import net.cheesecake.utilityadditions.UtilityAdditions;
-import net.cheesecake.utilityadditions.item.ModItems;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
