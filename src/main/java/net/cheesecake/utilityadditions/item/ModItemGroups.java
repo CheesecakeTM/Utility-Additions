@@ -17,7 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ETERNALITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.DAWNGEM);
                         entries.add(ModItems.ETERNALITE);
-                        entries.add(ModItems.ENRICHED_IRON);
+                        entries.add(ModItems.ENRICHED_IRON_INGOT);
 
                         entries.add(ModBlocks.DEEPSLATE_DAWN_ORE);
 

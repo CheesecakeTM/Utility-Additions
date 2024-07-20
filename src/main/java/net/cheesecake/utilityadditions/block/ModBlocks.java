@@ -17,7 +17,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block DEEPSLATE_DAWN_ORE = registerBlock("deepslate_dawn_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));//TODO add a texture
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
 
     private static void addOreBlocksToNaturalTabItemGroup (FabricItemGroupEntries entries) {
         entries.add(ModBlocks.DEEPSLATE_DAWN_ORE);

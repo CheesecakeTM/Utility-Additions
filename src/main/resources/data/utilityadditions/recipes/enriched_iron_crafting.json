@@ -2,20 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "RII",
     "III",
-    "III"
+    "ID ",
+    "   "
   ],
   "key": {
-    "R": {
-      "item": "minecraft:redstone"
-    },
     "I": {
       "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
     }
   },
   "result": {
-    "count": 6,
-    "item": "utilityadditions:enriched_iron"
+    "item": "utilityadditions:enriched_iron_ingot"
   }
 }
